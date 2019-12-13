@@ -1,0 +1,55 @@
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
+		https://maven.apache.org/xsd/settings-1.0.0.xsd">
+
+	<mirrors>
+		<mirror>
+			<id>Maven-Central-Mirror</id>
+			<mirrorOf>central</mirrorOf>
+			<name>Maven-Central-Mirror</name>
+			<url>https://p-nexus-repo.development.nl.eu.abnamro.com:8443/nexus/content/groups/java-group/</url>
+        </mirror>
+        
+		<mirror>
+			<id>TRD-releases-virtual</id>
+			<mirrorOf>TRD-releases-virtual</mirrorOf>
+			<name>TRD-releases-virtual</name>
+			<url>https://p-nexus.nl.eu.abnamro.com:8443/nexus/content/groups/TRD-releases-virtual/</url>
+		</mirror>
+		
+		<mirror>
+			<id>ABNAMRO_MAVEN_PLUGINS</id>
+			<mirrorOf>ABNAMRO_MAVEN_PLUGINS</mirrorOf>
+			<name>ABNAMRO_MAVEN_PLUGINS</name>
+			<url>https://p-nexus.nl.eu.abnamro.com:8443/nexus/content/repositories/ABNAMRO_MAVEN_PLUGINS/</url>
+		</mirror>
+		
+		<mirror>
+			<id>MAVEN-CENTRAL</id>
+			<mirrorOf>MAVEN-CENTRAL</mirrorOf>
+			<name>MAVEN-CENTRA</name>
+			<url>https://p-nexus-repo.development.nl.eu.abnamro.com:8443/nexus/content/groups/java-group/</url>
+		</mirror>
+	</mirrors>
+
+	<servers>
+		<server>
+			<id>TRD-snapshots</id>
+			<username>TRD_BUILDER</username>
+			<password>{CjiCjc1F9LgHfSJVAe23eyc7PiZhpoq1C4nXOIv5e7E=}</password>
+		</server>
+
+		<server>
+			<id>TRD-releases</id>
+			<username>TRD_BUILDER</username>
+			<password>{CjiCjc1F9LgHfSJVAe23eyc7PiZhpoq1C4nXOIv5e7E=}</password>
+		</server>
+
+		<server>
+			<id>Maven-Central-Mirror</id>
+			<username>TRD_BUILDER</username>
+			<password>{CjiCjc1F9LgHfSJVAe23eyc7PiZhpoq1C4nXOIv5e7E=}</password>
+		</server>
+	</servers>
+</settings>

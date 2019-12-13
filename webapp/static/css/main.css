@@ -1,0 +1,339 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+.dotHalfBlue {
+	 opacity: 0.2;
+	 float: right;
+     height: 250px;
+     width: 125px;
+     border-radius: 500px 0 0 500px;
+     background-color: #0000f8;
+}
+
+.dotHalfGreen{
+	margin: 0px 0px 0px 1500px;
+	 position: fixed;
+	 opacity: 0.2;
+     height: 175px;
+     width: 350px;
+     border-radius: 0 0 500px 500px;
+     background-color: green;
+}
+
+.dotBlue {
+	position: fixed;
+	margin: 10px 0px 0px 1450px;
+	opacity: 0.5;
+	height: 100px;
+	width: 100px;
+	background-color: #18ccf0;
+	border-radius: 50%;
+}
+
+.dotDarkBlue {
+	position: fixed;
+	opacity: 0.7;
+	float: right;
+	margin: 50px 0px 0px 1200px;
+	height: 200px;
+	width: 200px;
+	background-color: #2164a9;
+	border-radius: 50%;
+}
+
+.dotGreen {
+	position: fixed;
+	opacity: 0.8;
+	float: right;
+	margin: 20px 0px 0px 600px;
+	height: 50px;
+	width: 50px;
+	background-color: #a1e65c;
+	border-radius: 50%;
+}
+
+.dotOrange {
+	position: fixed;
+	opacity: 0.8;
+	float: right;
+	margin: 200px 50px 0px 0px;
+	height: 150px;
+	width: 150px;
+	background-color: #ff9f19;
+	border-radius: 50%;
+}
+
+.dotPurple {
+	position: fixed;
+	float: right;
+	margin: 100px 100px 0px 1750px; 
+	height: 120px;
+	width: 120px;
+	background-color: #a47ee6;
+	border-radius: 50%;
+}
+
+.dotRed {
+	position: fixed;
+	margin: 60px 60px 0px 100px;
+	opacity: 0.7;
+	float: right;
+	height: 300px;
+	width: 300px;
+	background-color: #f60002;
+	border-radius: 50%;
+	z-index: -5;
+}
+
+.dotPink {
+	position: fixed;
+	opacity: 0.7;
+	margin-left: 70px;
+	margin-top: 600px;
+	position: fixed;
+	height: 250px;
+	width: 250px;
+	background-color: #ff0087;
+	border-radius: 50%;
+}
+
+.dotBlack {
+	position: fixed;
+	margin: 400px 0px 0px 200px;
+	height: 140px;
+	width: 140px;
+	background-color: black;
+	border-radius: 50%;
+}
+
+.dotYellow {
+	opacity: 0.7;
+	position: fixed;
+	margin: 300px 0px 0px 400px;
+	height: 700px;
+	width: 700px;
+	background-color: #ffcc00;
+	border-radius: 50%;
+}
+.dotTurquoise {
+	position: fixed;
+	margin: 800px 0px 0px 1200px;
+	height: 300px;
+	width: 300px;
+	background-color: #17edd0;
+	border-radius: 50%;
+}
+
+.outer {
+	display: table;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.middle {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.inner {
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+
+}
+
+.waitingOnPlayerinner {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+}
+
+.youAreInvitedinner {
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+}
+
+.innerNewAccount {
+	position: relative;
+	margin-left: auto;
+	margin-right: 200px;
+	width: 500px;
+}
+
+.youAreInvitedDiv {
+	width: 400px;
+}
+
+.waitingOnPlayerInner {
+	width: 600px;
+}
+
+#loginForm, #createUserForm {
+    border: 10px double #1e5799;
+    padding: 50px;
+    border-radius: 25px;
+    font-family: Ubuntu;
+    opacity: 0.8;
+}
+
+#loginInput[type=text], #loginInput[type=password] {
+	padding: 13px 0px 13px 0px;
+  	margin: 8px 0;
+  	box-sizing: border-box;
+}
+
+#createUsername[type=text], #createPassword[type=password] {
+	padding: 6px 0px 6px 0px;
+  	margin: 8px 0;
+  	box-sizing: border-box;
+}
+
+#loginSubmitButton, #signUpButton, #cancelCreateUserButton, #logoutButton, #invitePlayersButton {
+	font-family: Ubuntu;
+	color: white;
+	width: 173px;
+  	font-size: 15px;
+  	border: 2px solid black;
+  	padding: 15px 32px;
+	background: linear-gradient(135deg, rgba(30,87,153,0) 0%,rgba(30,87,153,0.8) 15%,rgba(30,87,153,1) 19%,rgba(30,87,153,1) 20%,rgba(41,137,216,1) 50%,rgba(30,87,153,1) 80%,rgba(30,87,153,1) 81%,rgba(30,87,153,0.8) 85%,rgba(30,87,153,0) 100%);
+	}
+	
+ #acceptInviteButton, #declineInviteButton {
+ 	opacity: 0.8;
+	color: white;
+	width: 150px;
+  	font-size: 17x;
+  	border: 2px solid black;
+  	padding: 15px 32px;
+  	background: linear-gradient(135deg, rgba(30,87,153,0) 0%,rgba(30,87,153,0.8) 15%,rgba(30,87,153,1) 19%,rgba(30,87,153,1) 20%,rgba(41,137,216,1) 50%,rgba(30,87,153,1) 80%,rgba(30,87,153,1) 81%,rgba(30,87,153,0.8) 85%,rgba(30,87,153,0) 100%);
+ }
+
+#loginSubmitButton:hover, #createNewAcountButton:hover, #signUpButton:hover, #cancelCreateUserButton:hover, #logoutButton:hover,  #acceptInviteButton:hover, #declineInviteButton:hover {
+	border: 2px solid white;
+	transition: 0.5s
+}
+
+#createNewAcountButton {
+	font-family: Ubuntu;
+	color: white;
+	width: 173px;
+  	font-size: 17x;
+  	border: 2px solid black;
+  	padding: 15px 32px;
+  	margin-top: 5px;
+	background: linear-gradient(135deg, rgba(30,87,153,0) 0%,rgba(30,87,153,0.8) 15%,rgba(30,87,153,1) 19%,rgba(30,87,153,1) 20%,rgba(41,137,216,1) 50%,rgba(30,87,153,1) 80%,rgba(30,87,153,1) 81%,rgba(30,87,153,0.8) 85%,rgba(30,87,153,0) 100%);
+}
+
+#lobbyh1 {
+	padding-top: 30px;
+	padding-left: 30px;
+	font-size: 50px;
+	font-family: Ubuntu;
+}
+
+.onlinePlayersList {
+    width: 25%;
+  	border: 10px double #1e5799;
+  	margin-left: 10%;
+  	margin-top: 5%;
+	font-size: 30px;
+	padding: 15px;
+	font-family: Ubuntu;
+	border-radius: 25px;
+}
+
+#logoutButton {
+	position: fixed;
+	float: right;
+	margin-top: 20px;
+	margin-left: 50% !important;
+}
+
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.checkmark:after {
+  content: "";
+  display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+  margin: 4px 0px 0px 8px;
+}
+
+.container input:checked ~ .checkmark {
+	background: linear-gradient(135deg, rgba(30,87,153,0) 0%,rgba(30,87,153,0.8) 15%,rgba(30,87,153,1) 19%,rgba(30,87,153,1) 20%,rgba(41,137,216,1) 50%,rgba(30,87,153,1) 80%,rgba(30,87,153,1) 81%,rgba(30,87,153,0.8) 85%,rgba(30,87,153,0) 100%);
+}
+
+.container:hover input ~ .checkmark {
+	background: linear-gradient(135deg, rgba(30,87,153,0) 0%,rgba(30,87,153,0.8) 15%,rgba(30,87,153,1) 19%,rgba(30,87,153,1) 20%,rgba(41,137,216,1) 50%,rgba(30,87,153,1) 80%,rgba(30,87,153,1) 81%,rgba(30,87,153,0.8) 85%,rgba(30,87,153,0) 100%);
+}
+
+.container {
+  position: relative;
+  margin-left: 30px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+#invitePlayersButton {
+	margin-top: 80px;
+	margin-left: 50% !important;
+}
+
+#invitePlayerButton {
+	padding: 5px 20px;
+	font-size: 16px;
+	color: white;
+	border: 2px solid black;
+	background: linear-gradient(135deg, rgba(30,87,153,0) 0%,rgba(30,87,153,0.8) 15%,rgba(30,87,153,1) 19%,rgba(30,87,153,1) 20%,rgba(41,137,216,1) 50%,rgba(30,87,153,1) 80%,rgba(30,87,153,1) 81%,rgba(30,87,153,0.8) 85%,rgba(30,87,153,0) 100%);
+}
+
+#youAreInvitedh1 {
+	font-family: "Ubuntu";
+	padding-bottom: 30px;
+}
+
+#waitingOnPlayerh1 {
+	font-size: 50px;
+	font-family: "Ubuntu";
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url("/static/fonts/Ubuntu/Ubuntu-Regular.ttf");
+}
+
+
+
+
